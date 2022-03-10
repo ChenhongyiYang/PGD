@@ -54,7 +54,7 @@ zsh tools/run_crowdhuman.sh
 |  Detector  |             Setting             |     mAP     |                            Config                            |
 | :--------: | :-----------------------------: | :---------: | :----------------------------------------------------------: |
 |    FCOS    | Teacher (r101, 3x, multi-scale) |    43.1     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/detectors/fcos_r101_3x_ms.py) |
-|     -      | Student (r50, 1x, single-scale) |    38.2     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/detectors/fcos_r50_1x_ms.py) |
+|     -      | Student (r50, 1x, single-scale) |    38.2     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/detectors/fcos_r50_1x.py) |
 |     -      |   PGD (r50, 1x, single-scale)   | 42.5 (+4.3) | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/pgd_fcos_r101_r50_1x.py) |
 | AutoAssign | Teacher (r101, 3x, multi-scale) |    44.8     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/detectors/autoassign_r101_3x_ms.py) |
 |     -      | Student (r50, 1x, single-scale) |    40.6     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/detectors/autoassign_r50_1x.py) |
@@ -73,9 +73,9 @@ zsh tools/run_crowdhuman.sh
 
 | Detector |                Setting                |    MR ↓     |    AP ↑     |    JI ↑     |                            Config                            |
 | :------: | :-----------------------------------: | :---------: | :---------: | :---------: | :----------------------------------------------------------: |
-|   DDOD   | Teacher (r101, 36 epoch, multi-scale) |    41.4     |    90.2     |    81.4     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/det_crowdhuman/ddod_101.py) |
-|    -     | Student (r50, 12 epoch, single-scale) |    46.0     |    88.0     |    79.0     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/det_cropwdhuman/ddod_r50.py) |
-|    -     |   PGD (r50, 12 epoch, single-scale)   | 42.8 (-3.2) | 90.0 (+2.0) | 80.7 (+1.7) | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/pgd_ddod_crowdhuman_r101_r50_1x.py) |
+|   DDOD   | Teacher (r101, 36 epoch, multi-scale) |    41.4     |    90.2     |    81.4     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/det_crowdhuman/ddod_r101.py) |
+|    -     | Student (r50, 12 epoch, single-scale) |    46.0     |    88.0     |    79.0     | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/det_crowdhuman/ddod_r50.py) |
+|    -     |   PGD (r50, 12 epoch, single-scale)   | 42.8 (-3.2) | 90.0 (+2.0) | 80.7 (+1.7) | [config](https://github.com/ChenhongyiYang/PGD/blob/main/work_configs/pgd_ddod_crowdhuman_r101_r50.py) |
 
 ## Ciation
 
