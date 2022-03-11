@@ -1,6 +1,6 @@
 # Prediction-Guided Distillation 
 
-PyTorch implementation of our paper: [Prediction-Guided Distillation for Dense Object Detection]()
+PyTorch implementation of our paper: [Prediction-Guided Distillation for Dense Object Detection](https://arxiv.org/pdf/2203.05469.pdf)
 
 ## Requirements
 
@@ -80,14 +80,14 @@ zsh tools/run_crowdhuman.sh
 ## Ciation
 
 ```
-@article{yang2021contrastive,
-  title={Contrastive Object-level Pre-training with Spatial Noise Curriculum Learning},
-  author={Yang, Chenhongyi and Huang, Lichao and Crowley, Elliot J},
-  journal={arXiv preprint arXiv:2111.13651},
-  year={2021}
+@article{yang2022predictionguided,
+  title={{Prediction-Guided Distillation for Dense Object Detection}},
+  author={Yang, Chenhongyi and Ochal, Mateusz and Storkey, Amos and Crowley, Elliot J},
+  journal={arXiv preprint arXiv:2203.05469},
+  year={2022}
 }
 ```
 
 ## Acknowledgement 
 
-We thank [FGD](https://github.com/yzd-v/FGD) for their code base. 
+We thank [FGD](https://github.com/yzd-v/FGD) and [DDOD](https://github.com/zehuichen123/DDOD) for their code base. 
