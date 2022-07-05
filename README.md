@@ -1,6 +1,6 @@
 # Prediction-Guided Distillation 
 
-PyTorch implementation of our paper: [Prediction-Guided Distillation for Dense Object Detection](https://arxiv.org/pdf/2203.05469.pdf)
+PyTorch implementation of our ECCV 2022 paper: [Prediction-Guided Distillation for Dense Object Detection](https://arxiv.org/pdf/2203.05469.pdf)
 
 ## Requirements
 
