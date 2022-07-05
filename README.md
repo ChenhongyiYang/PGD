@@ -37,7 +37,7 @@ zsh tools/dist_test.sh work_configs/detectors/atss_r50_1x.py work_dirs/atss_r50_
 
 # Training and testing PGD model
 zsh tools/dist_train.sh work_configs/pgd_atss_r101_r50_1x.py 8
-zsh tools/dist_train.sh work_configs/pgd_atss_r101_r50_1x.py work_dirs/pgd_atss_r101_r50_1x/latest.pth 8
+zsh tools/dist_test.sh work_configs/pgd_atss_r101_r50_1x.py work_dirs/pgd_atss_r101_r50_1x/latest.pth 8
 ```
 
 #### CrowdHuman Experiments
