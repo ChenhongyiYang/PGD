@@ -83,7 +83,7 @@ zsh tools/run_crowdhuman.sh
 @article{yang2022predictionguided,
   title={{Prediction-Guided Distillation for Dense Object Detection}},
   author={Yang, Chenhongyi and Ochal, Mateusz and Storkey, Amos and Crowley, Elliot J},
-  journal={arXiv preprint arXiv:2203.05469},
+  journal={ECCV 2022},
   year={2022}
 }
 ```
